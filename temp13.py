@@ -5,4 +5,12 @@ def main():
 
     permut=[]
     for i in[inp1,inp2,inp3]:
-        for j in 
+        for j in [inp1,inp2,inp3]:
+            for k in [inp1,inp2,inp3]:
+                if i!=j and j!=k and i!=k:
+                    permut.append((i,j,k))
+    print("All possible permutations are:")
+    for p i permmut:
+        print(p)
+if __name__ == "__main__":
+    main()
