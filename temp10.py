@@ -6,6 +6,6 @@ def main():
         if inp[i]==number:
             index=i
             break
-        print("Index of the number is :",index)
+    print("Index of the number is :",index)
 if __name__=="__main__":
     main()
