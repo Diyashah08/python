@@ -12,6 +12,7 @@ def main():
             j+=1
             merged.extend(num1[i:])
             merged.extend(num1[j:])
+    
     print("merged list",merged)
 if __name__=="__main__":
     main()
